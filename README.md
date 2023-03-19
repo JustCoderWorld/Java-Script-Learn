@@ -1,2 +1,1 @@
-# Java Script Learn
- Step by Step Learn
+Hello Friends I am learning Javascript in this Project and I am preparing a lot of small project documents and sharing them with you. Hopefully it benefits your business
