@@ -1,9 +1,18 @@
+body{
+    display: table;
+}
+
 li{
     background-color: #C8B6A6;
     list-style-type: none;
 }
 h1{
     color: #F1DEC9;
+    font-size: 2rem;
+}
+span{
+    font-size: 3rem;
+    color: red;
 }
 a{
    text-decoration: none;
@@ -17,19 +26,64 @@ a{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transition-delay:.5s ;
 }
+
+#Nicewords1:hover{
+    scale: 1.01;
+}
+
 #lish{
-    box-shadow:  rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     border-radius: 3rem;
-    
 }
 #lish:hover{
     scale: 1.02;
-    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(255, 0, 0, 0.56) 0px 22px 70px 4px;
     background: F1DEC9;
-    text-emphasis-color: red;
     letter-spacing: .5rem;
-    transition-delay: .2s;
+    
 }
 #lish:hover h1{
-    color: #fff;
+    color: #ff0000;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 576px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    *{
+        margin: 0 auto;
+    }
+    .sa{
+        margin-left: 3rem;
+    }
+    #Nicewords{
+        margin-left: 1rem;
+    }
+    #Nicewords:hover{
+        scale: 1.02;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        transition-delay:.5s ;
+        margin: 1rem;
+    }
+    #lish{
+        border: #bebebe 8px solid;
+        border-bottom: #bebebe 20px solid;
+    }
+}
+@media only screen and (max-width: 576px) {
+
+    body{
+        display: block;
+    }
+    #lish{
+        border: #bebebe 5px solid;
+        border-bottom: #bebebe 15px solid;
+    }
+    #Nicewords{
+        margin-top: 2rem;
+    }
 }
