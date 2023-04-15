@@ -1,0 +1,379 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Fonts font-family: 'Zeyada', cursive; font-family: 'Playfair Display', serif;  font-family: 'Kanit', sans-serif;  font-family: 'Anton', sans-se10rif;  font-family: 'Righteous', cursive;*/
+
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+li {
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+    font-family: 'Anton', sans-serif;
+    align-items: center;
+    border-style: inset hidden outset hidden;
+    padding: 1.25rem;
+    margin-right: 1rem;
+}
+
+li:hover {
+    animation: lianim 1.8s 10ms 1 alternate;
+}
+
+a:hover {
+    color: white;
+}
+
+.NavMainWords {
+    font-size: 5rem;
+    display: inline-block;
+    font-family: 'Zeyada', cursive;
+    justify-content: center;
+    position: relative;
+    border-style: inset hidden outset hidden;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.NavMainWords:hover {
+    animation: lianim 1.8s 10ms 1 alternate;
+}
+
+.container {
+    padding: 1rem;
+    display: block;
+    width: 98%;
+    height: auto;
+    align-items: center;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 150px;
+}
+
+.Main {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+}
+
+.gusimage {
+    padding: 1rem;
+    margin: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: yellow;
+    border-style: inset hidden outset hidden;
+}
+
+.Main:hover {
+    animation: sectionanim 7s 10ms 1 alternate;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    color: white;
+    display: inline-block;
+    margin: 1rem;
+}
+
+p {
+    font-size: 1.7rem;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    color: white;
+    display: inline-block;
+    margin: 1rem;
+}
+
+p:hover {
+    color: red;
+}
+
+span {
+    color: yellow;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.gusimage2 {
+    margin-top: 15rem;
+    padding: 1rem;
+    margin: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: white;
+    border-style: inset hidden outset hidden;
+}
+
+.Words {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+}
+
+.Words:hover {
+    animation: sectionanim2 7s 10ms 1 alternate;
+}
+
+strong {
+    color: #4A6A79;
+}
+
+strong:hover {
+    text-decoration: underline;
+}
+
+.WordsP {
+    font-size: 1px;
+}
+
+.video {
+    margin: 0 auto 0 auto;
+    display: table;
+    margin-top: 15rem;
+    padding: 3rem;
+    margin-bottom: 7rem;
+    border: yellow;
+    border-style: inset hidden outset hidden;
+}
+
+.video:hover {
+    border: white;
+    border-style: dashed hidden dashed hidden;
+}
+
+.video:hover h2 {
+    color: white;
+}
+
+.music {
+    margin: 0 auto 0 auto;
+    display: table;
+    margin-top: 15rem;
+    padding: 3rem;
+    margin-bottom: 7rem;
+    border: yellow;
+    border-style: inset hidden outset hidden;
+}
+
+.music:hover {
+    border: white;
+    border-style: dashed hidden dashed hidden;
+}
+
+.music:hover h2 {
+    color: white;
+}
+
+h2 {
+    margin: 0 auto 0 auto;
+    display: table;
+    font-size: 3rem;
+    font-family: 'Righteous', cursive;
+    color: yellow;
+    margin-bottom: 1rem;
+}
+
+.dc {
+    margin: 0 0.5rem 0 0.5rem;
+    display: table;
+    position: relative;
+    border: 3px white;
+    border-style: hidden solid hidden solid;
+    color: white;
+    padding: 1rem;
+}
+
+.dc {
+    animation: dcanim 2s alternate infinite;
+}
+
+.dc:hover {
+    animation: dcanim2 2s alternate infinite;
+}
+
+.form {
+    display: table;
+    margin: 0 auto 0 auto;
+    color: white;
+    resize: none;
+    font-family: 'Righteous', cursive;
+    border: 2px yellow;
+    border-style: inset hidden outset hidden;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.form:hover {
+    border: white;
+    border-style: dashed hidden dashed hidden;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.45rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 0.3rem;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.btn {
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 0 auto 0 auto;
+    display: table;
+    color: yellow;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.btn:hover {
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 0 auto 0 auto;
+    display: table;
+    color: white;
+    border: 1px solid yellow;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2.5rem;
+    color: yellow;
+    font-size: 4rem;
+}
+
+#good:hover {
+    color: white;
+}
+
+#bad:hover {
+    color: white;
+}
+
+.gnbl {
+    margin-top: 2rem;
+}
+
+
+/* Animations */
+
+@keyframes lianim {
+    0% {
+        border: 5px;
+        border-radius: 3rem;
+        color: black;
+    }
+    50% {
+        border: 8px inset yellow;
+        border-style: hidden outset hidden outset;
+    }
+    100% {
+        color: white;
+        border-color: yellow;
+    }
+}
+
+@keyframes dcanim {
+    0% {
+        border: 5px;
+        border-radius: 3rem;
+        color: black;
+    }
+    50% {
+        border: 10px inset red;
+        border-style: hidden dashed hidden dashed;
+    }
+    100% {
+        color: white;
+        border-color: red;
+    }
+}
+
+@keyframes dcanim2 {
+    0% {
+        border: 5px;
+        border-radius: 3rem;
+        color: violet;
+    }
+    50% {
+        border: 10px inset rebeccapurple;
+        border-style: hidden dashed hidden dashed;
+    }
+    100% {
+        color: white;
+        border-color: rgb(255, 57, 133);
+    }
+}
+
+@keyframes sectionanim {
+    0% {
+        border: 5px;
+        border-radius: 3rem;
+        color: black;
+    }
+    10% {
+        border: 8px inset yellow;
+        border-style: hidden outset hidden outset;
+    }
+    100% {
+        color: white;
+        border-color: yellow;
+    }
+}
+
+@keyframes sectionanim2 {
+    0% {
+        border: 5px;
+        border-radius: 3rem;
+        color: yellow;
+    }
+    10% {
+        border: 8px inset #3F6572;
+        border-style: hidden outset hidden outset;
+    }
+    100% {
+        color: white;
+        border-color: #3F6572;
+    }
+}
